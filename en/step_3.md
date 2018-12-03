@@ -1,3 +1,3 @@
-## Step title
+## Drawing sprites
 
 + Step content...

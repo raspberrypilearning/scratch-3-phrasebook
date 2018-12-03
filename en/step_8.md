@@ -1,3 +1,7 @@
-## Step title
+## Challenge: something
+
+--- challenge ---
 
 + Step content...
+
+--- /challenge ---

@@ -5,7 +5,7 @@ In this project, you will create an interactive phrasebook that will translate s
 ### What you will make
 
 --- no-print ---
-<!--Scratch 3 embed once Scratch 3 goes live-->
+<!--Scratch 3 embed once Scratch 3.0 goes live-->
 --- /no-print ---
 
 --- print-only ---
@@ -18,11 +18,11 @@ title: What you will need
 ---
 ### Hardware
 
-A computer capable of running Scratch 3
+A computer capable of running Scratch 3.0
 
 ### Software
 
-Scratch 3 (either [online](http://rpf.io/scratchon) or [offline update in Jan](#))
+Scratch 3.0 (either [online](http://rpf.io/scratchon) or [offline update in Jan](#))
 
 ### Downloads
 

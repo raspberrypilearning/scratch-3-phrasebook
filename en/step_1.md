@@ -1,19 +1,15 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+In this project, you will create an interactive phrasebook that will translate some useful phrases into different languages.
 
 ### What you will make
 
 --- no-print ---
-Add instructions for using the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+<!--Scratch 3 embed once Scratch 3 goes live-->
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Complete project](images/final-screenshot.png)
 --- /print-only ---
 
 --- collapse ---
@@ -22,13 +18,11 @@ title: What you will need
 ---
 ### Hardware
 
-+ Describe hardware here
+A computer capable of running Scratch 3
 
 ### Software
 
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+Scratch 3 (either [online](http://rpf.io/scratchon) or [offline update in Jan](#))
 
 ### Downloads
 
@@ -42,7 +36,6 @@ title: What you will learn
 ---
 
 + Two or three learning objectives
-+ ...should go here
 
 --- /collapse ---
 

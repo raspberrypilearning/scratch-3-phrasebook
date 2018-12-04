@@ -5,7 +5,7 @@ Next you will add flag sprites. Let's start with the English and Spanish flags.
 There are no national flags in the library so you will need to download some images of the flags or draw them.
 
 --- task ---
-To create a sprite using an image, download an image or use the one found in the resources for this project, hover over the choose a sprite button and click the upload button.
+To create a sprite using an image, download an image of the Spanish flag or use the one found in the resources for this project (link), hover over the choose a sprite button and click the upload button.
 
 ![Scratch 3.0 choose a sprite button - upload](images/spriteButton.png)
 
@@ -33,6 +33,8 @@ You will see the canvas appear.
 Now draw the England flag, it is a white flag with a red cross in the middle. Mine is below.
 
 ![Scratch 3.0 canvas](images/EnglandDrawing.png)
+
+Using the sprite information panel below the stage, rename your sprite "england".
 
 --- /task ---
 

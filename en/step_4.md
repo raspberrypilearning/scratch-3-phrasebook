@@ -18,7 +18,8 @@ Let's get our flags to say hello in their languages.
 
 Make sure the spain sprite is selected and the code tab is selected.
 
-![spain sprite selected](images/spainSpriteSelected.png) ![Code tab selected](images/codeTabSelected.png)
+![spain sprite selected](images/spainSpriteSelected.png)
+![Code tab selected](images/codeTabSelected.png)
 
 Create a variable `language`{:class="block3data"} by selecting the `variables`{:class="block3data"} blocks and clicking "Make a Variable".
 Call your variable `language`{:class="block3data"} and click "OK".

@@ -22,6 +22,6 @@ Use the button in the bottom right corner to choose a backdrop.
 
 --- task ---
 
-Choose a backdrop from the library or create your own.
+Choose a backdrop from the library or create your own. I chose Wall 1.
 
 --- /task ---

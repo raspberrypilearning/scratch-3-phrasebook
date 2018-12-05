@@ -1,6 +1,10 @@
 ## Switching the backdrop
 
-Next, let's switch the backdrop when a flag is clicked. At the same time, you should hide the flags and show some objects that can be translated.
+Next, let's switch to a second backdrop when a flag is clicked. At the same time, you should hide the flags and show some objects that can be translated.
+
+--- task ---
+Add or Paint a new backdrop by clicking the Choose a backdrop button. I chose Beach Malibu.
+--- /task ---
 
 --- task ---
 Add the following code to the spain flag sprite:

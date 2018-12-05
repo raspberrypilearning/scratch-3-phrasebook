@@ -1,7 +1,3 @@
-## Challenge: something
-
---- challenge ---
+## More languages
 
 + Step content...
-
---- /challenge ---

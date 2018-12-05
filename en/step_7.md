@@ -1,3 +1,3 @@
-## More languages
+## More phrases
 
 + Step content...

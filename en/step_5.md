@@ -76,3 +76,9 @@ show
 --- /hint ---
 --- /hints ---
 --- /task ---
+--- task ---
+Test your code to ensure everything works correctly.
+Does the backdrop switch between the two you selected?
+Do the sprites appear and dissapear as expected?
+![Test code to switch backdrops](images/testBackdropSwap.gif)
+--- /task ---

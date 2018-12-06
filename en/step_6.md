@@ -3,7 +3,7 @@
 Now let's add a sprite to the Beach backdrop and take a look at another new Scratch 3 extension, Text to Speech!
 
 --- task ---
-"Where are the toilets?" is a phrase that is very important to know when you are in a country that speaks a different language. Let's use a cartoon toilet picture as a sprite for this. 
+"Where are the toilets?" is a phrase that is very important to know when you are in a country that speaks a different language. Let's use a cartoon toilet as a sprite to trigger this phrase. 
 
 Create a new sprite and draw a toilet or click upload and use the image in this project's resources.
 --- /task ---
@@ -39,7 +39,7 @@ spain sprite:
 ```blocks3
 when this sprite clicked
 set [language v] to [Spanish]
-+ set language to [Spanish \(European\)v] :: extension
++ set language to [Spanish \(European\) v] :: extension
 say [\[Hello\] in (language)] for (2) secs :: extension
 switch backdrop to [Beach Malibu v]
 ```

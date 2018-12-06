@@ -1,6 +1,6 @@
 ## More phrases
 
-Now we've got one phrase working, but that's not enough for a phrasebook is it? Let's add some more phrases.
+Now we've got one phrase working, excellent! That's not enough for a phrasebook tough, is it? Let's add some more phrases.
 
 --- task ---
 Let's duplicate our toilet sprite as most of the code will be the same for other phrases. 
@@ -8,12 +8,26 @@ Right click on the toilet sprite in the list of sprites under the stage and clic
 ![How to duplicate a sprite](images/duplicateSprite.png)
 --- /task ---
 --- task ---
-"Yes" and "No" are useful words to know in other languages, let's use the a red cross to represent "No". Change the costume of the new sprite to Button5-b by clicking on the new sprite, selecting the Costumes tab (1) and then clicking the Choose a Costume button on the bottom left (2). Then delete the old costume by clicking it's "x" (3).
+"Yes" and "No" are useful words to know in other languages, let's use the red cross to represent "No". Change the costume of the new sprite to Button5-b by clicking on the new sprite, selecting the Costumes tab (1) and then clicking the Choose a Costume button on the bottom left (2). Then delete the old costume by clicking it's "x" (3).
 ![How to change a sprite's costume](images/changeCostume.png)
 Change the sprite name in the sprite information panel under the stage to "no".
 --- /task ---
 --- task ---
-Finally, change "Where are the toilets?" to "No" in the no sprites `translate`{:class="block3extensions"} code blocks.
+Finally, change "Where are the toilets?" to "No" in the no sprites `translate`{:class="block3extensions"} code blocks. See the changes below:
+
+```blocks3
+when this sprite clicked
+- say (translate (Where are the toilets?) to (language):: extension) for (2) secs
+
+when this sprite clicked
+- speak(translate(Where are the toilets?) to (language)::extension) ::extension
+
+when this sprite clicked
++ say (translate (No) to (language):: extension) for (2) secs
+
+when this sprite clicked
++ speak(translate(No) to (language)::extension) ::extension
+```
 --- /task ---
 --- task --- 
 Add some more phrases to your phrasebook. 

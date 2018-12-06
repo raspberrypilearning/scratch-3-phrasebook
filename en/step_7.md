@@ -1,6 +1,6 @@
 ## More phrases
 
-Now we've got one phrase working, excellent! That's not enough for a phrasebook tough, is it? Let's add some more phrases.
+Now we've got one phrase working, excellent! That's not enough for a phrasebook though, is it? Let's add some more phrases.
 
 --- task ---
 Let's duplicate our toilet sprite as most of the code will be the same for other phrases. 
@@ -13,19 +13,15 @@ Right click on the toilet sprite in the list of sprites under the stage and clic
 Change the sprite name in the sprite information panel under the stage to "no".
 --- /task ---
 --- task ---
-Finally, change "Where are the toilets?" to "No" in the no sprites `translate`{:class="block3extensions"} code blocks. See the changes below:
+Finally, change "Where are the toilets?" to "No" in the no sprite's `translate`{:class="block3extensions"} code blocks. See the changes below:
 
 ```blocks3
 when this sprite clicked
 - say (translate (Where are the toilets?) to (language):: extension) for (2) secs
-
-when this sprite clicked
-- speak(translate(Where are the toilets?) to (language)::extension) ::extension
-
-when this sprite clicked
 + say (translate (No) to (language):: extension) for (2) secs
 
 when this sprite clicked
+- speak(translate(Where are the toilets?) to (language)::extension) ::extension
 + speak(translate(No) to (language)::extension) ::extension
 ```
 --- /task ---
@@ -55,6 +51,6 @@ speak(translate(Yes) to (language)::extension) ::extension
 --- /hint ---
 --- /hints ---
 
-I also included the phrase "How much does it cost?" and used some coins as my sprite costume.
+I also included the phrase "How much does it cost?" and used some coins as my sprite costume. This sprite can also be found in the project resources.
 What other phrases might you need if you are going to a country that speaks a different language?
 --- /task ---

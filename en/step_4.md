@@ -22,7 +22,7 @@ Make sure the spain sprite is selected and the code tab is selected.
 
 Create a variable `language`{:class="block3data"} by selecting the `variables`{:class="block3data"} blocks and clicking "Make a Variable".
 Call your variable `language`{:class="block3data"} and click "OK".
-You should see `language`{:class="block3data"} appear underneath your "Make a Variable" button.
+You should see `language`{:class="block3data"} appear underneath your "Make a Variable" button and on the top left corner of the stage.
 
 ![Make a variable buttons highlighted](images/MakeAVariable.png)
 
@@ -50,7 +50,7 @@ Now do the same for the england flag sprite.
 
 --- hints ---
 --- hint ---
-In a similar way to the spain flag sprite, `when the england flag is clicked`{:class="block3events"}, `set the language to English`{:class="block3data"} and `say`{:class="block3looks"} `Hello in`{:class="block3extensions"} `language`{:class="block3data"}
+In a similar way to the spain flag sprite, `when the england flag is clicked`{:class="block3events"}, `set the language to English`{:class="block3data"} and `say`{:class="block3looks"} `Hello in`{:class="block3extensions"} the language stored in `language`{:class="block3data"}.
 
 --- /hint ---
 --- hint ---

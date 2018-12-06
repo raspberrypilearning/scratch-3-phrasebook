@@ -1,7 +1,7 @@
 ## More languages
 
 Now we can go to countries that speak Spanish or English. Let's add another one now.
-To see a list of languages that you can translate to, click the drop down box from the `translate`{:class="block3extensions"} code block. Be sure to check the Speech to Text languages too if you'd like to hear the translations with the correct pronunciation.
+To see the list of languages that you can translate to, click the drop down box from the `translate`{:class="block3extensions"} code block. Be sure to check the Speech to Text languages too if you'd like to hear the translations with the correct pronunciation.
 
 --- task ---
 Let's add French, as its flag is easy to draw and it's used in a lot of countries around the world.
@@ -17,8 +17,8 @@ Finally, change the code so that it sets the `language`{:class="block3data"} var
 Your france flag sprite's code should now look like the following:
 ```blocks3
 when this sprite clicked
-set [language v] to [French]
-set language to [French) v] :: extension
++ set [language v] to [French]
++ set language to [French) v] :: extension
 say [\[Hello\] in (language)] for (2) secs :: extension
 switch backdrop to [Beach Malibu v]
 
@@ -34,14 +34,14 @@ Add Italian to your phrasebook.
 
 --- hints ---
 --- hint ---
-First duplicate a sprite with most of the code (French also has most of the flag!), then choose/draw a costume and finally change language in that sprite's language code blocks.
+First duplicate a sprite with most of the code (French also has most of the flag!), then choose or draw a costume and finally change the language in the sprite's language code blocks.
 --- /hint ---
 --- hint ---
 The code for the new yes sprite looks like this:
 ```blocks3
 when this sprite clicked
-set [language v] to [Italian]
-set language to [Italian) v] :: extension
++ set [language v] to [Italian]
++ set language to [Italian) v] :: extension
 say [\[Hello\] in (language)] for (2) secs :: extension
 switch backdrop to [Beach Malibu v]
 

@@ -35,7 +35,10 @@ Scratch 3.0 (either [online](http://rpf.io/scratchon) or [offline update in Jan]
 title: What you will learn
 ---
 
-+ Two or three learning objectives
++ How to draw sprites and backdrops
++ How to switch between 2 backdrops
++ How to use the Google Translate extension
++ How to use the Text to Speech extension
 
 --- /collapse ---
 

@@ -5,7 +5,9 @@ In this project, you will create an interactive phrasebook that will translate s
 ### What you will make
 
 --- no-print ---
-<!--Scratch 3 embed once Scratch 3.0 goes live-->
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/277527926/?autostart=false" frameborder="0" scrolling="no"></iframe>
+</div>
 --- /no-print ---
 
 --- print-only ---

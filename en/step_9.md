@@ -15,6 +15,8 @@ Next lets choose a new costume for the france sprite. I'm going to draw this one
 --- task ---
 Finally, change the code so that it sets the `language`{:class="block3data"} variable and the Text to Speech `set language to`{:class="block3extensions"} code blocks to French instead of Spanish.
 Your france flag sprite's code should now look like the following:
+
+![France sprite](images/franceSmall.png)
 ```blocks3
 when this sprite clicked
 + set [language v] to [French]
@@ -37,7 +39,9 @@ Add Italian to your phrasebook.
 First duplicate a sprite with most of the code (French also has most of the flag!), then choose or draw a costume and finally change the language in the sprite's language code blocks.
 --- /hint ---
 --- hint ---
-The code for the new yes sprite looks like this:
+The code for the new Italian sprite looks like this:
+
+![Italy sprite](images/italySmall.png)
 ```blocks3
 when this sprite clicked
 + set [language v] to [Italian]

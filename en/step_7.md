@@ -15,6 +15,7 @@ Change the sprite name in the sprite information panel under the stage to "no".
 --- task ---
 Finally, change "Where are the toilets?" to "No" in the no sprite's `translate`{:class="block3extensions"} code blocks. See the changes below:
 
+![No sprite](images/noSmall.png)
 ```blocks3
 when this sprite clicked
 - say (translate (Where are the toilets?) to (language):: extension) for (2) secs
@@ -31,10 +32,12 @@ Start by adding "Yes" as one of them.
 
 --- hints ---
 --- hint ---
-First duplicate a sprite with most of the code, then choose a costume and finally change the phrase in that sprite's `translate`{:class="block3extensions"} code blocks.
+First duplicate a sprite with most of the code, then choose a costume (button4 perhaps?) and finally change the phrase in that sprite's `translate`{:class="block3extensions"} code blocks.
 --- /hint ---
 --- hint ---
 The code for the new yes sprite looks like this:
+
+![Yes sprite](images/yesSmall.png)
 ```blocks3
 when backdrop switches to [Wall 1 v]
 hide

@@ -5,13 +5,14 @@ In this project, you will create an interactive phrasebook that will translate s
 ### What you will make
 
 --- no-print ---
+Select a country to choose it's language, then select objects to here some translated phrases.
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/277527926/?autostart=false" frameborder="0" scrolling="no"></iframe>
 </div>
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/final-screenshot.png)
+![Complete project](images/finalScreenshot.png)
 --- /print-only ---
 
 --- collapse ---

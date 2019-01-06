@@ -14,7 +14,8 @@ steps:
   - title: Switching the backdrop
   - title: Text to speech
   - title: More phrases
+  - title: "Challenge: how much does it cost?"
+    challenge: true 
   - title: More languages
   - title: "Challenge: using Scratch 3.0 extensions in other projects"
     challenge: true
-  - title: What next?

@@ -68,5 +68,5 @@ speak(translate(Where are the toilets?) to (language)::extension) ::extension
 Now test your code, you should be able to click the spain flag to set the language to Spanish and then click the toilet to see and hear how "Where are the toilets?" is said in Spanish. It's "¿Dónde están los baños?"! The english flag should work for English too, even though it isn't currently translating anything.
 
 ![Test code to translate toilet phrase](images/textToSpeechTest.gif)
-When you click on the toilet sprite, you should hear the phrase too!
+When you click on your toilet sprite, you should hear the phrase too!
 --- /task ---

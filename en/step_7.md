@@ -50,7 +50,4 @@ speak(translate(Yes) to (language)::extension) ::extension
 ```
 --- /hint ---
 --- /hints ---
-
-I also included the phrase "How much does it cost?" and used some coins as my sprite costume. This sprite can also be found in the project resources.
-What other phrases might you need if you are going to a country that speaks a different language?
 --- /task ---

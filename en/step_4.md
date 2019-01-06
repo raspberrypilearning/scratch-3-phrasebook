@@ -3,16 +3,17 @@
 Google translate is a new addition to Scratch 3. To add it to your program, you'll need to select the Google translate extension from the extensions menu.
 
 --- task ---
-
 Click the "Add extension" button on the bottom left corner of the screen as seen below.
 
 ![Scratch 3.0 Add extension button](images/extensionButton.png)
 
 Then choose "Translate".
 
+![Scratch 3.0 Translate extension](images/translateExtension.png)
+
 --- /task ---
 
-Let's get our flags to say hello in their languages.
+Now, let's get our flags to say hello in their languages.
 
 --- task ---
 
@@ -20,22 +21,19 @@ Make sure the spain sprite is selected and the code tab is selected.
 
 ![spain sprite selected](images/spainSpriteSelected.png) ![Code tab selected](images/codeTabSelected.png)
 
-Create a variable `language`{:class="block3data"} by selecting the `variables`{:class="block3data"} blocks and clicking "Make a Variable".
-Call your variable `language`{:class="block3data"} and click "OK".
-You should see `language`{:class="block3data"} appear underneath your "Make a Variable" button and on the top left corner of the stage.
+Create a variable `language` to store the selected language and make it available for all sprites.
 
-![Make a variable buttons highlighted](images/MakeAVariable.png)
+[[[generic-scratch3-add-variable]]]
 
 Add code to the spain sprite to set `language`{:class="block3data"} to "Spanish" and to `translate`{:class="block3extensions"} "Hello" into our `language`{:class="block3data"} variable and `say`{:class="block3looks"} that when you click it.
 
+![Spain sprite](images/spainSmall.png)
 ```blocks3
 when this sprite clicked
 set [language v] to [Spanish]
 say [\[Hello\] in (language)] for (2) secs :: extension
 ```
-
 --- /task ---
-
 --- task ---
 
 Now test your code by clicking the spain flag on the stage.
@@ -46,7 +44,7 @@ Now test your code by clicking the spain flag on the stage.
 
 --- task ---
 
-Now do the same for the england flag sprite. 
+Now do the same for the england flag sprite.
 
 --- hints ---
 --- hint ---
@@ -69,6 +67,7 @@ set [language v] to [English]
 --- /hint ---
 --- hint ---
 Here's what your code should look like for the england flag sprite:
+![England sprite](images/englandSmall.png)
 ```blocks3
 when this sprite clicked
 set [language v] to [English]

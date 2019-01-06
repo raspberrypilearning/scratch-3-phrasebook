@@ -9,7 +9,7 @@ last_tested: "2018-12-03"
 steps:
   - title: Introduction
   - title: Scratch 3.0 new look
-  - title: Drawing sprites
+  - title: Drawing sprites and a backdrop
   - title: Google translate
   - title: Switching the backdrop
   - title: Text to speech

@@ -2,7 +2,7 @@
 
 --- challenge ---
 
-Include the phrase "How much does it cost?" and used some coins as your sprite costume. 
+Include the phrase "How much does it cost?" and use some coins as your sprite costume. 
 
 This costume can also be found in the project resources.
 

@@ -3,7 +3,7 @@
 --- task ---
 To start, open the [starter project](resources/PhrasebookStarter.sb3)
 
---- /task ----
+--- /task ---
 --- task ---
 
 Next, create the main backdrop. The first backdrop will contain flags to represent the languages we will be using.

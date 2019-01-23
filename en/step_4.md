@@ -1,31 +1,33 @@
-## Google translate
+## Google Translate
 
-Google translate is a new addition to Scratch 3. To add it to your program, you'll need to select the Google translate extension from the extensions menu.
+Scratch 3.0 has a Google Translate tool. You can find the tool in the Extensions menu.
 
 --- task ---
-Click the "Add extension" button on the bottom left corner of the screen as seen below.
+Click on the **Add extension** button in the bottom left-hand corner of the window.
 
 ![Scratch 3.0 Add extension button](images/extensionButton.png)
 
-Then choose "Translate".
+Then click on **Translate**.
 
 ![Scratch 3.0 Translate extension](images/translateExtension.png)
 
 --- /task ---
 
-Now, let's get our flags to say hello in their languages.
+Now make your flags say "hello" in their languages.
 
 --- task ---
 
-Make sure the spain sprite is selected and the code tab is selected.
+Click on the Spanish flag sprite to select it, and then click on the Code tab.
 
 ![spain sprite selected](images/spainSpriteSelected.png) ![Code tab selected](images/codeTabSelected.png)
 
-Create a variable `language` to store the selected language and make it available for all sprites.
+Create a variable called `language`. Make the variable available for all sprites.
 
 [[[generic-scratch3-add-variable]]]
 
-Add code to the spain sprite to set `language`{:class="block3data"} to "Spanish" and to `translate`{:class="block3extensions"} "Hello" into our `language`{:class="block3data"} variable and `say`{:class="block3looks"} that when you click it.
+Add code to the Spanish flag sprite so that, when the sprite is clicked:
+1. `language`{:class="block3data"} is set to 'Spanish'
+1. "Hello" is `translated`{:class="block3extensions"} into the language stored in the `language`{:class="block3data"} variable so the sprite can `say`{:class="block3looks"} the translated word
 
 ![Spain sprite](images/spainSmall.png)
 ```blocks3
@@ -36,7 +38,7 @@ say [\[Hello\] in (language)] for (2) secs :: extension
 --- /task ---
 --- task ---
 
-Now test your code by clicking the spain flag on the stage.
+Test your code by clicking the Spanish flag on the Stage.
 
 ![Test code to make spain sprite say hello in Spanish](images/testHola.gif)
 
@@ -44,15 +46,15 @@ Now test your code by clicking the spain flag on the stage.
 
 --- task ---
 
-Now do the same for the england flag sprite.
+Now do the same for the England flag sprite (or whichever flag you've added).
 
 --- hints ---
 --- hint ---
-In a similar way to the spain flag sprite, `when the england flag is clicked`{:class="block3events"}, `set the language to English`{:class="block3data"} and `say`{:class="block3looks"} `Hello in`{:class="block3extensions"} the language stored in `language`{:class="block3data"}.
+In a similar way to the code for the Spanish flag sprite, `when the England flag is clicked`{:class="block3events"}, `set the language to English`{:class="block3data"} and `say`{:class="block3looks"} `Hello in`{:class="block3extensions"} the language stored in `language`{:class="block3data"}.
 
 --- /hint ---
 --- hint ---
-These are the code blocks you need to add to the england flag sprite:
+These are the code blocks you need to add to the England flag sprite:
 ```blocks3
 say [ ] for (2) secs
 
@@ -66,7 +68,7 @@ set [language v] to [English]
 
 --- /hint ---
 --- hint ---
-Here's what your code should look like for the england flag sprite:
+Here's what your code should look like for the England flag sprite:
 ![England sprite](images/englandSmall.png)
 ```blocks3
 when this sprite clicked

@@ -1,13 +1,13 @@
 ## Switching the backdrop
 
-The backdrop is becoming crowded due to the flags on it, next let's create a second backdrop where you can place your phrase sprites. You'll switch to the second backdrop when a flag is clicked. At the same time, you should hide the flags and show the phrase sprites.
+The backdrop is becoming crowded by the flags, so create a second backdrop on which to place your phrase sprites. When a flag sprite is clicked, the second background should appear, the flag sprites should hide, and the phrase sprites should show.
 
 --- task ---
-Add or Paint a new backdrop by clicking the Choose a backdrop button. You could use the Beach Malibu backdrop as you will see in this project.
+Add a new backdrop by clicking the **Choose a backdrop** button, or draw a new backdrop if you want to. You could use the 'Beach Malibu' backdrop that you can see in this guide.
 --- /task ---
 
 --- task ---
-Add the following code to the spain flag sprite:
+Add the following code to the Spanish flag sprite:
 
 ![Spain sprite](images/spainSmall.png)
 ```blocks3
@@ -20,13 +20,21 @@ when backdrop switches to [Beach Malibu v]
 hide
 ```
 
-Clicking on the spain flag should now switch the backdrop and hide itself.
 --- /task ---
 --- task ---
-Let's also include a way to swap back to the start screen. Create a new sprite and select Arrow1
+Test the new code. When you clicking on the Spanish flag sprite, the sprite should hide and the new backdrop should appear.
+--- /task ---
+
+Now, create a way to swap back to the first backdrop.
+
+--- task ---
+First, go to the sprites library and add the sprite called 'Arrow1'.
 ![Arrow1 sprite](images/arrow1Sprite.png)
 
-Change the direction of the arrow to '-90' in the sprite information panel below the stage, then drag the arrow into the top left corner of the stage
+Change the direction of the arrow to `-90` in the sprite information panel below the Stage.
+
+Then drag the arrow into the top left-hand corner of the Stage.
+
 ![Change Arrow1 direction](images/arrowDirection.png)
 Add the following code to the arrow sprite:
 
@@ -42,7 +50,11 @@ when backdrop switches to [Beach Malibu v]
 show
 ```
 
-Now the arrow brings us back to the starting backdrop but, we've lost our spain flag! If you add the following code to the spain flag sprite, it should fix our problem:
+When you click on the arrow sprite now, your Scratch program goes back to the starting backdrop.
+
+However, you can see that the Spanish flag sprite is not visible!
+
+Add the following code to the Spanish flag sprite to fix this problem.
 
 ![Spain sprite](images/spainSmall.png)
 ```blocks3
@@ -51,14 +63,16 @@ show
 ```
 --- /task ---
 --- task ---
-Now we can switch backdrops by clicking on the spain flag and on our arrow. Can you add code so that our england flag can be used to switch backdrops in the same way?
+Now you can switch between the two backdrops by clicking on the Spanish flag and on the arrow.
+
+Can you add code so that, when you click on the England flag, the Scratch program also switches to the second backdrop?
 
 --- hints ---
 --- hint ---
-Just like the spain flag sprite, you need to `switch backdrop to Beach Malibu`{:class="block3looks"}. You also need to `show`{:class="block3looks"} the flag `when the backdrop switches to Wall 1`{:class="block3events"} and `hide`{:class="block3looks"} the flag `when the backdrop switches to Beach Malibu`{:class="block3events"}.
+Just like the in the code for the Spanish flag sprite, you need to `switch backdrop to Beach Malibu`{:class="block3looks"} `when the England flag is clicked`{:class="block3events"}. You also need to `show`{:class="block3looks"} the flag `when the backdrop switches to Wall 1`{:class="block3events"}, and `hide`{:class="block3looks"} the flag `when the backdrop switches to Beach Malibu`{:class="block3events"}.
 --- /hint ---
 --- hint ---
-These are the code blocks you need to add to the england flag sprite:
+These are the code blocks you need to add to the England flag sprite:
 ```blocks3
 hide
 
@@ -70,7 +84,7 @@ switch backdrop to [Beach Malibu v]
 ```
 --- /hint ---
 --- hint ---
-Here's what your code should look like for the england flag sprite:
+Here's what your code should look like for the England flag sprite:
 
 ![England sprite](images/englandSmall.png)
 ```blocks3
@@ -90,7 +104,10 @@ show
 --- /task ---
 --- task ---
 Test your code to ensure everything works correctly.
-Does the backdrop switch between the two you selected?
-Do the sprites appear and disappear as expected?
+
+Can you switch between backdrops by clicking on the sprites?
+
+Do the sprites appear and disappear as they should?
+
 ![Test code to switch backdrops](images/testBackdropSwap.gif)
 --- /task ---

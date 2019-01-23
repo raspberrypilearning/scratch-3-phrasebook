@@ -1,32 +1,34 @@
 ## Drawing sprites and a backdrop
 
-In this project, I will be translating from my first language, English , into other languages and using the English flag. If your first language is available in both the translate and text to speech extensions, don’t hesitate to use it instead.
-
+In this project, I will be translating from English, my first language, into other languages, and I will be using the English flag. If your first language is available in both the Translate and Text to Speech extensions, you can choose to use this language instead.
 
 --- task ---
-To start, open the [starter project](resources/PhrasebookStarter.sb3)
+To start, open the [starter project](resources/PhrasebookStarter.sb3).
 
 --- /task ---
 --- task ---
 
-Next, create the main backdrop. The first backdrop will contain flags to represent the languages we will be using.
-Use the button in the bottom right corner to choose a backdrop.
+Next, create the main backdrop. The first backdrop should contain flags to represent the languages in the phrasebook.
+
+Click on the button in the bottom right-hand corner to open the backdrops library.
 
 ![Scratch 3.0 choose a backdrop button](images/backdropButton.png)
 
-Choose a backdrop from the library or create your own. I chose Wall 1.
+Choose a backdrop from the library, or if you want to, you can create your own. I chose Wall 1.
 
 --- /task ---
 
 --- task ---
-Next you will add a flag sprite. The Spanish flag is already provided. Now draw the England flag, it is a white flag with a red cross in the middle. Mine is below.
+Next, add a flag sprite. A sprite looking like the Spanish flag is already included in the starter project. Now draw the England flag, or the flag of the country you live in.
+
+The English flag is white with a red cross in the centre, like this one drawn by me:
 
 [[[generic-scratch3-draw-sprite]]]
 
 ![Scratch 3.0 canvas](images/EnglandDrawing.png)
 
-Using the sprite information panel below the stage, rename your sprite "england".
+In the sprite information panel below the Stage, rename your sprite 'england' (or give it your country's name instead).
 
 --- /task ---
 
-Next, let's look at some of the new features in Scratch 3!
+Next, we will look at some of the new features of Scratch 3.0!

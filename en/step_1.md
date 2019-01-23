@@ -1,11 +1,11 @@
 ## Introduction
 
-In this project, you will create an interactive phrasebook that will translate some useful phrases into different languages.
+In this project, you will create an interactive phrasebook that translates useful phrases into different languages.
 
 ### What you will make
 
 --- no-print ---
-Select a country to choose it's language, then select objects to here some translated phrases.
+Click on a country's flag to choose a language. Then click on objects to hear some translated phrases.
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/277527926/?autostart=false" frameborder="0" scrolling="no"></iframe>
 </div>
@@ -21,7 +21,7 @@ title: What you will need
 ---
 ### Hardware
 
-A computer capable of running Scratch 3.0
+A computer capable of running Scratch 3.0, with loudspeakers
 
 ### Software
 
@@ -39,7 +39,7 @@ title: What you will learn
 ---
 
 + How to draw sprites and backdrops
-+ How to switch between 2 backdrops
++ How to switch between two backdrops
 + How to use the Google Translate extension
 + How to use the Text to Speech extension
 

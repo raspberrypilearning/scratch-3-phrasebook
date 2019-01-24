@@ -3,7 +3,7 @@
 Now you'll use another new tool in Scratch 3.0: Text to Speech!
 
 --- task ---
-When you are in a country where people speaks a different language to you, it is very useful to know the translation for the sentence "Where are the toilets?". You will add a new sprite to trigger this phrase. 
+When you are in a country where people speak a different language to you, it is very useful to know the translation for the sentence "Where are the toilets?". You will add a new sprite to trigger this phrase. 
 
 If you want to, you can create the new sprite by drawing a toilet.
 

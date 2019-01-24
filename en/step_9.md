@@ -1,20 +1,25 @@
 ## More languages
 
-Now we can go to countries that speak Spanish or English. Let's add another one now.
-To see the list of languages that you can translate to, click the drop down box from the `translate`{:class="block3extensions"} code block. Be sure to check the Speech to Text languages too if you'd like to hear the translations with the correct pronunciation.
+So far, you can use your phrasebook in countries where Spanish or English is spoken. Now add some more languages.
+
+To see the list of languages that you can translate to, click on the little triangle in the `translate`{:class="block3extensions"} code block.
+
+If you want to hear the translations with the correct pronunciation, also check the languages in the Speech to Text extension.
+
+I'm adding French, as the French flag is easy to draw and French is spoken in a lot of countries around the world.
 
 --- task ---
-Let's add French, as its flag is easy to draw and it's used in a lot of countries around the world.
-First let's duplicate the spain sprite so that we can reuse its code!
-Right click on the spain flag sprite in the list of sprites under the stage and click duplicate.
+First, duplicate the Spanish flag sprite so that you can reuse its code! 
 --- /task ---
 --- task ---
-Next lets choose a new costume for the france sprite. I'm going to draw this one as it's not too difficult. Then delete the old costume.
+Next, choose or draw a new costume for the French flag sprite. It's easy to draw:
 ![The French flag in the costume editor](images/franceSprite.png)
+Then delete the old costume.
 --- /task ---
 --- task ---
-Finally, change the code so that it sets the `language`{:class="block3data"} variable and the Text to Speech `set language to`{:class="block3extensions"} code blocks to French instead of Spanish.
-Your france flag sprite's code should now look like the following:
+Finally, change the code so that clicking the sprite sets the `language`{:class="block3data"} variable and the Text to Speech `set language to`{:class="block3extensions"} code blocks to French instead of Spanish.
+
+Your French flag sprite's code should now look like this:
 
 ![France sprite](images/franceSmall.png)
 ```blocks3
@@ -36,10 +41,10 @@ Add Italian to your phrasebook.
 
 --- hints ---
 --- hint ---
-First duplicate a sprite with most of the code (French also has most of the flag!), then choose or draw a costume and finally change the language in the sprite's language code blocks.
+First, duplicate a sprite with most of the code (the French flag also looks very similar to the Italian!). Then choose or draw a suitable costume, and finally change the language in the sprite's language code blocks.
 --- /hint ---
 --- hint ---
-The code for the new Italian sprite looks like this:
+The code for the new Italian flag sprite looks like this:
 
 ![Italy sprite](images/italySmall.png)
 ```blocks3

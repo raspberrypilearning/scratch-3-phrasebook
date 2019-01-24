@@ -9,7 +9,7 @@ If you want to, you can create the new sprite by drawing a toilet.
 
 [[[generic-scratch3-draw-sprite]]]
 
-Or you can use the image from this project guide:
+Or you can use the image in this project's resources:
 ![Toilet sprite](images/toiletSmall.png)
 --- /task ---
 

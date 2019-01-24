@@ -5,14 +5,16 @@ You have one phrase translated now — excellent! But that's not enough for a ph
 --- task ---
 It's easiest to duplicate the toilet sprite, because most of the code you need for other phrases is the same. 
 
-To duplicate the toilet sprite, right-click on it in the list of sprites below the Stage and then click on **duplicate**.
+To duplicate the toilet sprite, right-click on it in the list of sprites below the Stage, and then click on **duplicate**.
 ![How to duplicate a sprite](images/duplicateSprite.png)
 --- /task ---
---- task ---
 
 "Yes" and "no" are useful words to know in other languages.
 
-Represent "No", use the red cross costume for the duplicated sprite. Change the costume of the new sprite to Button5-b by clicking on the sprite, then clicking on the Costumes tab (1), and then clicking on the **Choose a Costume** button on the bottom left (2). Then delete the old costume by clicking its **x** (3).
+--- task ---
+To represent "No", use the red cross costume from the costumes library.
+
+Change the costume of the new sprite by clicking on the sprite, then clicking on the Costumes tab (1), and then clicking on the **Choose a Costume** button on the bottom left (2) and choosing Button5-b. Then delete the old costume by clicking its **x** (3).
 
 ![How to change a sprite's costume](images/changeCostume.png)
 --- /task ---

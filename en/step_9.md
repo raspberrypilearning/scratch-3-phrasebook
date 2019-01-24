@@ -4,9 +4,9 @@ So far, you can use your phrasebook in countries where Spanish or English is spo
 
 To see the list of languages that you can translate to, click on the little triangle in the `translate`{:class="block3extensions"} code block.
 
-If you want to hear the translations with the correct pronunciation, also check the languages in the Speech to Text extension.
+If you want to hear the translations with the correct pronunciation, also check whether the language is available in the Speech to Text extension.
 
-I'm adding French, as the French flag is easy to draw and French is spoken in a lot of countries around the world.
+I'm adding French, because the French flag is easy to draw and French is spoken in a lot of countries around the world.
 
 --- task ---
 First, duplicate the Spanish flag sprite so that you can reuse its code! 
@@ -41,7 +41,9 @@ Add Italian to your phrasebook.
 
 --- hints ---
 --- hint ---
-First, duplicate a sprite with most of the code (the French flag also looks very similar to the Italian!). Then choose or draw a suitable costume, and finally change the language in the sprite's language code blocks.
+First, duplicate a sprite with most of the code. It's easiest to duplicate the French flag sprite, because this flag looks very similar to the Italian one!
+
+Then choose or draw a suitable costume, and finally change the language in the sprite's language code blocks.
 --- /hint ---
 --- hint ---
 The code for the new Italian flag sprite looks like this:

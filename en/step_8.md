@@ -4,9 +4,9 @@
 
 Include the phrase "How much does it cost?" and use some coins as your sprite costume. 
 
-This costume can also be found in the project resources.
+This image of coins can also be found in this project's resources.
 
 ![Coins sprite](images/coinsSmall.png)
 
-What other phrases might you need if you are going to a country that speaks a different language?
+What other phrases do you think you would need in a country where people speak a different language?
 --- /challenge ---

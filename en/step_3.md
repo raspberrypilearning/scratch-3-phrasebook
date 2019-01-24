@@ -1,6 +1,6 @@
-## Drawing sprites and a backdrop
+## Draw sprites and a backdrop
 
-In this project, I will be translating from English, my first language, into other languages, and I will be using the English flag. If your first language is available in both the Translate and Text to Speech extensions, you can choose to use this language instead.
+In this project, I will be translating from English, my first language, into other languages, so I will be using the English flag. If your first language is available in both the Translate and Text to Speech extensions, you can choose to use this language instead.
 
 --- task ---
 To start, open the [starter project](resources/PhrasebookStarter.sb3).

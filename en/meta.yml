@@ -1,6 +1,6 @@
-title: Scratch 3.0 Phrasebook
+title: Scratch 3.0 phrasebook
 hero_image: images/banner.png
-description: Learn useful phrases in a variety of languages in this fun and interactive phrasebook
+description: Translate useful phrases into different languages with an interactive phrasebook
 version: 4
 listed: false
 copyedit: false
@@ -8,14 +8,14 @@ ingredient: false
 last_tested: "2018-12-03"
 steps:
   - title: Introduction
-  - title: Scratch 3.0 new look
-  - title: Drawing sprites and a backdrop
-  - title: Google translate
-  - title: Switching the backdrop
-  - title: Text to speech
+  - title: "Scratch 3.0's new look"
+  - title: Draw sprites and a backdrop
+  - title: Google Translate
+  - title: Switch the backdrop
+  - title: Text to Speech
   - title: More phrases
   - title: "Challenge: how much does it cost?"
     challenge: true 
   - title: More languages
-  - title: "Challenge: using Scratch 3.0 extensions in other projects"
+  - title: "Challenge: use Scratch 3.0 extensions in other projects"
     challenge: true

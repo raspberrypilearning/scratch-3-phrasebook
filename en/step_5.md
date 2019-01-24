@@ -1,4 +1,4 @@
-## Switching the backdrop
+## Switch the backdrop
 
 The backdrop is becoming crowded by the flags, so create a second backdrop on which to place your phrase sprites. When a flag sprite is clicked, the second background should appear, the flag sprites should hide, and the phrase sprites should show.
 

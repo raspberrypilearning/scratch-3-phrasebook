@@ -33,9 +33,10 @@ First, go to the sprites library and add the sprite called 'Arrow1'.
 
 Change the direction of the arrow to `-90` in the sprite information panel below the Stage.
 
+![Change Arrow1 direction](images/arrowDirection.png)
+
 Then drag the arrow into the top left-hand corner of the Stage.
 
-![Change Arrow1 direction](images/arrowDirection.png)
 Add the following code to the arrow sprite:
 
 ![Arrow sprite](images/arrow1small.png)
@@ -50,7 +51,7 @@ when backdrop switches to [Beach Malibu v]
 show
 ```
 
-When you click on the arrow sprite now, your Scratch program goes back to the starting backdrop.
+When you click on the arrow sprite now, your Scratch project goes back to the first backdrop.
 
 However, you can see that the Spanish flag sprite is not visible!
 
@@ -84,7 +85,7 @@ switch backdrop to [Beach Malibu v]
 ```
 --- /hint ---
 --- hint ---
-Here's what your code should look like for the England flag sprite:
+This is what your code should look like for the England flag sprite:
 
 ![England sprite](images/englandSmall.png)
 ```blocks3
@@ -107,7 +108,7 @@ Test your code to ensure everything works correctly.
 
 Can you switch between backdrops by clicking on the sprites?
 
-Do the sprites appear and disappear as they should?
+Do the sprites appear and disappear when they should?
 
 ![Test code to switch backdrops](images/testBackdropSwap.gif)
 --- /task ---

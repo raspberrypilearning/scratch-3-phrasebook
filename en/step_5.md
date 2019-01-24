@@ -1,6 +1,6 @@
 ## Switch the backdrop
 
-The backdrop is becoming crowded by the flags, so create a second backdrop on which to place your phrase sprites. When a flag sprite is clicked, the second background should appear, the flag sprites should hide, and the phrase sprites should show.
+The backdrop is becoming crowded by the flags, so create a second backdrop on which to place your phrase sprites. When a flag sprite is clicked, the second background should appear and the flag sprites should hide.
 
 --- task ---
 Add a new backdrop by clicking the **Choose a backdrop** button, or draw a new backdrop if you want to. You could use the 'Beach Malibu' backdrop that you can see in this guide.

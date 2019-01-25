@@ -30,7 +30,7 @@ Now add some code to the same sprite to translate the question "Where are the to
 ![Toilet sprite](images/toiletSmall.png)
 ```blocks3
 when this sprite clicked
-say [\[Where are the toilets?\] in (language)] for (2) secs :: extension
+say (translate [Where are the toilets?] to (language):: extension) for (2) secs
 ```
 --- /task ---
 
@@ -48,7 +48,7 @@ First, set the language on our Spanish and England flag sprites.
 when this sprite clicked
 set [language v] to [Spanish]
 + set language to [Spanish \(European\) v] :: extension
-say [\[Hello\] in (language)] for (2) secs :: extension
+say (translate [Hello] to (language):: extension) for (2) secs
 switch backdrop to [Beach Malibu v]
 ```
 
@@ -57,7 +57,7 @@ switch backdrop to [Beach Malibu v]
 when this sprite clicked
 set [language v] to [English]
 + set language to [English v] :: extension
-say [\[Hello\] in (language)] for (2) secs :: extension
+say (translate [Hello] to (language):: extension) for (2) secs
 switch backdrop to [Beach Malibu v]
 ```
 --- /task ---
@@ -67,7 +67,7 @@ Then add this code to the toilet sprite:
 ![Toilet sprite](images/toiletSmall.png)
 ```blocks3
 when this sprite clicked
-speak(translate(Where are the toilets?) to (language)::extension) ::extension
+speak(translate[Where are the toilets?] to (language)::extension) ::extension
 ```
 --- /task ---
 --- task ---

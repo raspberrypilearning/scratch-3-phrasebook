@@ -26,7 +26,7 @@ Your French flag sprite's code should now look like this:
 when this sprite clicked
 + set [language v] to [French]
 + set language to [French) v] :: extension
-say [\[Hello\] in (language)] for (2) secs :: extension
+say (translate [Hello] to (language):: extension) for (2) secs
 switch backdrop to [Beach Malibu v]
 
 when backdrop switches to [Beach Malibu v]
@@ -53,7 +53,7 @@ The code for the new Italian flag sprite looks like this:
 when this sprite clicked
 + set [language v] to [Italian]
 + set language to [Italian) v] :: extension
-say [\[Hello\] in (language)] for (2) secs :: extension
+say (translate [Hello] to (language):: extension) for (2) secs
 switch backdrop to [Beach Malibu v]
 
 when backdrop switches to [Beach Malibu v]

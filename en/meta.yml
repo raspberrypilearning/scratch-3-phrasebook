@@ -3,7 +3,7 @@ hero_image: images/banner.png
 description: Translate useful phrases into different languages with an interactive phrasebook
 version: 4
 listed: false
-copyedit: false
+copyedit: true
 ingredient: false
 last_tested: "2018-12-03"
 steps:

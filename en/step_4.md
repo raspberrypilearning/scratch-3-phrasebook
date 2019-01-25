@@ -33,7 +33,7 @@ Add code to the Spanish flag sprite so that, when the sprite is clicked:
 ```blocks3
 when this sprite clicked
 set [language v] to [Spanish]
-say [\[Hello\] in (language)] for (2) secs :: extension
+say (translate [Hello] to (language):: extension) for (2) secs
 ```
 --- /task ---
 --- task ---
@@ -58,7 +58,7 @@ These are the code blocks you need to add to the England flag sprite:
 ```blocks3
 say [ ] for (2) secs
 
-translate [Hello] in (language) :: extension
+translate [Hello] to (language) :: extension
 
 when this sprite clicked
 
@@ -73,7 +73,7 @@ Here's what your code should look like for the England flag sprite:
 ```blocks3
 when this sprite clicked
 set [language v] to [English]
-say [\[Hello\] in (language)] for (2) secs :: extension
+say (translate [Hello] to (language):: extension) for (2) secs
 ```
 
 --- /hint ---

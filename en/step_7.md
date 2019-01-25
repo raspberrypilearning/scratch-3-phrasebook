@@ -27,12 +27,12 @@ Finally, in the 'no' sprite's `translate`{:class="block3extensions"} code blocks
 ![No sprite](images/noSmall.png)
 ```blocks3
 when this sprite clicked
-- say (translate (Where are the toilets?) to (language):: extension) for (2) secs
-+ say (translate (No) to (language):: extension) for (2) secs
+- say (translate [Where are the toilets?] to (language):: extension) for (2) secs
++ say (translate [No] to (language):: extension) for (2) secs
 
 when this sprite clicked
-- speak(translate(Where are the toilets?) to (language)::extension) ::extension
-+ speak(translate(No) to (language)::extension) ::extension
+- speak(translate[Where are the toilets?] to (language)::extension) ::extension
++ speak(translate[No] to (language)::extension) ::extension
 ```
 --- /task ---
 --- task --- 
@@ -56,10 +56,10 @@ when backdrop switches to [Beach Malibu v]
 show
 
 when this sprite clicked
-say (translate (Yes) to (language):: extension) for (2) secs
+say (translate [Yes] to (language):: extension) for (2) secs
 
 when this sprite clicked
-speak(translate(Yes) to (language)::extension) ::extension
+speak(translate[Yes] to (language)::extension) ::extension
 ```
 --- /hint ---
 --- /hints ---

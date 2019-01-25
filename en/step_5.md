@@ -13,11 +13,11 @@ Add the following code to the Spanish flag sprite:
 ```blocks3
 when this sprite clicked
 set [language v] to [Spanish]
-say [\[Hello\] in (language)] for (2) secs :: extension
+say (translate [Hello] to (language):: extension) for (2) secs
 + switch backdrop to [Beach Malibu v]
 
-when backdrop switches to [Beach Malibu v]
-hide
++ when backdrop switches to [Beach Malibu v]
++ hide
 ```
 
 --- /task ---
@@ -91,7 +91,7 @@ This is what your code should look like for the England flag sprite:
 ```blocks3
 when this sprite clicked
 set [language v] to [English]
-say [\[Hello\] in (language)] for (2) secs :: extension
+say (translate [Hello] to (language):: extension) for (2) secs
 + switch backdrop to [Beach Malibu v]
 
 when backdrop switches to [Beach Malibu v]

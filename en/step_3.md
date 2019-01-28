@@ -3,7 +3,7 @@
 In this project, I will be translating from English, my first language, into other languages, so I will be using the English flag. If your first language is available in both the Translate and Text to Speech extensions, you can choose to use this language instead.
 
 --- task ---
-To start, open the [starter project](resources/PhrasebookStarter.sb3).
+To start, open the starter project [online]](https://scratch.mit.edu/projects/282154211/) or download the [offline version](resources/PhrasebookStarter.sb3).
 
 --- /task ---
 --- task ---

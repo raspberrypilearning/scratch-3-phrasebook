@@ -25,11 +25,7 @@ A computer capable of running Scratch 3.0, with loudspeakers
 
 ### Software
 
-Scratch 3.0 (either [online](http://rpf.io/scratchon) or [offline update in Jan](#))
-
-### Downloads
-
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
+Scratch 3.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
 
 --- /collapse ---
 

@@ -4,7 +4,7 @@
 
 Include the phrase "How much does it cost?" and use some coins as your sprite costume. 
 
-This image of coins can also be found in this project's [resources](rpf.io/phrasebook-resources).
+This image of coins can also be found in this project's [resources](https://rpf.io/phrasebook-resources).
 
 ![Coins sprite](images/coinsSmall.png)
 

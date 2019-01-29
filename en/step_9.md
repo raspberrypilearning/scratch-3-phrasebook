@@ -17,7 +17,7 @@ Next, choose or draw a new costume for the French flag sprite. It's easy to draw
 Then delete the old costume.
 --- /task ---
 --- task ---
-Finally, change the code so that clicking the sprite sets the `language`{:class="block3data"} variable and the Text to Speech `set language to`{:class="block3extensions"} code blocks to French instead of Spanish.
+Finally, change the code so that clicking the sprite sets the `language`{:class="block3variables"} variable and the Text to Speech `set language to`{:class="block3extensions"} code blocks to French instead of Spanish.
 
 Your French flag sprite's code should now look like this:
 

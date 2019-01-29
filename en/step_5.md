@@ -110,5 +110,11 @@ Can you switch between backdrops by clicking on the sprites?
 
 Do the sprites appear and disappear when they should?
 
+--- no-print ---
 ![Test code to switch backdrops](images/testBackdropSwap.gif)
+--- /no-print ---
+
+--- print-only ---
+![Test code to switch backdrops](images/testBackdropSwapStill.png)
+--- /print-only ---
 --- /task ---

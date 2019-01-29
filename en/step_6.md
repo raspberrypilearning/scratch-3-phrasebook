@@ -9,7 +9,7 @@ If you want to, you can create the new sprite by drawing a toilet.
 
 [[[generic-scratch3-draw-sprite]]]
 
-Or you can use the image in this project's resources:
+Or you can use the image in this project's [resources](https://github.com/raspberrypilearning/scratch-3-phrasebook/tree/master/en/resources):
 ![Toilet sprite](images/toiletSmall.png)
 --- /task ---
 
@@ -25,7 +25,7 @@ show
 ```
 --- /task ---
 --- task ---
-Now add some code to the same sprite to translate the question "Where are the toilets?" into the language that is stored in the `language`{:class="block3data"} variable. 
+Now add some code to the same sprite to translate the question "Where are the toilets?" into the language that is stored in the `language`{:class="block3variables"} variable. 
 
 ![Toilet sprite](images/toiletSmall.png)
 ```blocks3
@@ -75,6 +75,12 @@ Now test your code.
 
 You should be able to click the Spanish flag to set the language to Spanish, and then click the toilet to see **and hear** how "Where are the toilets?" is said in Spanish. It's "¿Dónde están los baños?"! The English flag should work for English too.
 
+--- no-print ---
 ![Test code to translate toilet phrase](images/textToSpeechTest.gif)
+--- /no-print ---
+
+--- print-only ---
+![Test code to translate toilet phrase](images/textToSpeechTestStill.png)
+--- /print-only ---
 
 --- /task ---

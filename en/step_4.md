@@ -21,13 +21,13 @@ Click on the Spanish flag sprite to select it, and then click on the Code tab.
 
 ![spain sprite selected](images/spainSpriteSelected.png) ![Code tab selected](images/codeTabSelected.png)
 
-Create a variable called `language`. Make the variable available for all sprites.
+Create a variable called `language`{:class="block3variables"}. Make the variable available for all sprites.
 
 [[[generic-scratch3-add-variable]]]
 
 Add code to the Spanish flag sprite so that, when the sprite is clicked:
-1. `language`{:class="block3data"} is set to 'Spanish'
-1. "Hello" is `translated`{:class="block3extensions"} into the language stored in the `language`{:class="block3data"} variable so the sprite can `say`{:class="block3looks"} the translated word
+1. `language`{:class="block3variables"} is set to 'Spanish'
+1. "Hello" is `translated`{:class="block3extensions"} into the language stored in the `language`{:class="block3variables"} variable so the sprite can `say`{:class="block3looks"} the translated word
 
 ![Spain sprite](images/spainSmall.png)
 ```blocks3
@@ -40,7 +40,13 @@ say (translate [Hello] to (language):: extension) for (2) secs
 
 Test your code by clicking the Spanish flag on the Stage.
 
+--- no-print ---
 ![Test code to make spain sprite say hello in Spanish](images/testHola.gif)
+--- /no-print ---
+
+--- print-only ---
+![Test code to make spain sprite say hello in Spanish](images/testHolaStill.png)
+--- /print-only ---
 
 --- /task ---
 
@@ -50,7 +56,7 @@ Now do the same for the England flag sprite (or whichever flag you've added).
 
 --- hints ---
 --- hint ---
-In a similar way to the code for the Spanish flag sprite, `when the England flag is clicked`{:class="block3events"}, `set the language to English`{:class="block3data"} and `say`{:class="block3looks"} `Hello in`{:class="block3extensions"} the language stored in `language`{:class="block3data"}.
+In a similar way to the code for the Spanish flag sprite, `when the England flag is clicked`{:class="block3events"}, `set the language to English`{:class="block3variables"} and `say`{:class="block3looks"} `Hello in`{:class="block3extensions"} the language stored in `language`{:class="block3variables"}.
 
 --- /hint ---
 --- hint ---

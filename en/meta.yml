@@ -1,11 +1,15 @@
 title: Scratch 3.0 phrasebook
 hero_image: images/banner.png
 description: Translate useful phrases into different languages with an interactive phrasebook
-version: 4
-listed: false
+version: 4.0.0
+listed: true
 copyedit: true
 ingredient: false
-last_tested: "2018-12-03"
+technologies: scratch
+software: scratch
+theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 2
+last_tested: "2019-01-29"
 steps:
   - title: Introduction
   - title: "Scratch 3.0's new look"

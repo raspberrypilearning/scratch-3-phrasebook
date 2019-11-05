@@ -51,3 +51,5 @@ If you need to print this project, please use the [printer-friendly version](htt
 [Here is a link to the resources for this project](https://rpf.io/phrasebook-resources).
 
 --- /collapse ---
+
+![](https://code.org/api/hour/begin_rpi_scratch.png)

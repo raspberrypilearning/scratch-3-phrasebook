@@ -12,7 +12,6 @@ duration: 2
 last_tested: "2019-01-29"
 steps:
   - title: Introduction
-  - title: "Scratch 3.0's new look"
   - title: Draw sprites and a backdrop
   - title: Google Translate
   - title: Switch the backdrop

@@ -1,87 +1,120 @@
-## Google Translate
+## Switch the backdrop
 
-Scratch 3.0 has a Google Translate tool. You can find the tool in the Extensions menu.
+The backdrop is becoming crowded by the flags, so create a second backdrop on which to place your phrase sprites. When a flag sprite is clicked, the second background should appear and the flag sprites should hide.
 
 --- task ---
-Click on the **Add extension** button in the bottom left-hand corner of the window.
-
-![Scratch 3.0 Add extension button](images/extensionButton.png)
-
-Then click on **Translate**.
-
-![Scratch 3.0 Translate extension](images/translateExtension.png)
-
+Add a new backdrop by clicking the **Choose a backdrop** button, or draw a new backdrop if you want to. You could use the 'Beach Malibu' backdrop that you can see in this guide.
 --- /task ---
 
-Now make your flags say "hello" in their languages.
-
 --- task ---
-
-Click on the Spanish flag sprite to select it, and then click on the Code tab.
-
-![spain sprite selected](images/spainSpriteSelected.png) ![Code tab selected](images/codeTabSelected.png)
-
-Create a variable called `language`{:class="block3variables"}. Make the variable available for all sprites.
-
-[[[generic-scratch3-add-variable]]]
-
-Add code to the Spanish flag sprite so that, when the sprite is clicked:
-1. `language`{:class="block3variables"} is set to 'Spanish'
-1. "Hello" is `translated`{:class="block3extensions"} into the language stored in the `language`{:class="block3variables"} variable so the sprite can `say`{:class="block3looks"} the translated word
+Add the following code to the Spanish flag sprite:
 
 ![Spain sprite](images/spainSmall.png)
 ```blocks3
 when this sprite clicked
 set [language v] to [Spanish]
 say (translate [Hello] to (language):: extension) for (2) secs
++ switch backdrop to [Beach Malibu v]
+
++ when backdrop switches to [Beach Malibu v]
++ hide
+```
+
+--- /task ---
+--- task ---
+Test the new code. When you clicking on the Spanish flag sprite, the sprite should hide and the new backdrop should appear.
+--- /task ---
+
+Now, create a way to swap back to the first backdrop.
+
+--- task ---
+First, go to the sprites library and add the sprite called 'Arrow1'.
+![Arrow1 sprite](images/arrow1Sprite.png)
+
+Change the direction of the arrow to `-90` in the sprite information panel below the Stage.
+
+![Change Arrow1 direction](images/arrowDirection.png)
+
+Then drag the arrow into the top left-hand corner of the Stage.
+
+Add the following code to the arrow sprite:
+
+![Arrow sprite](images/arrow1small.png)
+```blocks3
+when this sprite clicked
+switch backdrop to [Wall 1 v]
+
+when backdrop switches to [Wall 1 v]
+hide
+
+when backdrop switches to [Beach Malibu v]
+show
+```
+
+When you click on the arrow sprite now, your Scratch project goes back to the first backdrop.
+
+However, you can see that the Spanish flag sprite is not visible!
+
+Add the following code to the Spanish flag sprite to fix this problem.
+
+![Spain sprite](images/spainSmall.png)
+```blocks3
+when backdrop switches to [Wall 1 v]
+show
 ```
 --- /task ---
 --- task ---
+Now you can switch between the two backdrops by clicking on the Spanish flag and on the arrow.
 
-Test your code by clicking the Spanish flag on the Stage.
-
---- no-print ---
-![Test code to make spain sprite say hello in Spanish](images/testHola.gif)
---- /no-print ---
-
---- print-only ---
-![Test code to make spain sprite say hello in Spanish](images/testHolaStill.png)
---- /print-only ---
-
---- /task ---
-
---- task ---
-
-Now do the same for the England flag sprite (or whichever flag you've added).
+Can you add code so that, when you click on the England flag, the Scratch program also switches to the second backdrop?
 
 --- hints ---
 --- hint ---
-In a similar way to the code for the Spanish flag sprite, `when the England flag is clicked`{:class="block3events"}, `set the language to English`{:class="block3variables"} and `say`{:class="block3looks"} `Hello in`{:class="block3extensions"} the language stored in `language`{:class="block3variables"}.
-
+Just like the in the code for the Spanish flag sprite, you need to `switch backdrop to Beach Malibu`{:class="block3looks"} `when the England flag is clicked`{:class="block3events"}. You also need to `show`{:class="block3looks"} the flag `when the backdrop switches to Wall 1`{:class="block3events"}, and `hide`{:class="block3looks"} the flag `when the backdrop switches to Beach Malibu`{:class="block3events"}.
 --- /hint ---
 --- hint ---
 These are the code blocks you need to add to the England flag sprite:
 ```blocks3
-say [ ] for (2) secs
+hide
 
-translate [Hello] to (language) :: extension
+when backdrop switches to [ v]
 
-when this sprite clicked
+show
 
-set [language v] to [English]
-
+switch backdrop to [Beach Malibu v]
 ```
-
 --- /hint ---
 --- hint ---
-Here's what your code should look like for the England flag sprite:
+This is what your code should look like for the England flag sprite:
+
 ![England sprite](images/englandSmall.png)
 ```blocks3
 when this sprite clicked
 set [language v] to [English]
 say (translate [Hello] to (language):: extension) for (2) secs
-```
++ switch backdrop to [Beach Malibu v]
 
+when backdrop switches to [Beach Malibu v]
+hide
+
+when backdrop switches to [Wall 1 v]
+show
+```
 --- /hint ---
 --- /hints ---
+--- /task ---
+--- task ---
+Test your code to ensure everything works correctly.
+
+Can you switch between backdrops by clicking on the sprites?
+
+Do the sprites appear and disappear when they should?
+
+--- no-print ---
+![Test code to switch backdrops](images/testBackdropSwap.gif)
+--- /no-print ---
+
+--- print-only ---
+![Test code to switch backdrops](images/testBackdropSwapStill.png)
+--- /print-only ---
 --- /task ---

@@ -1,34 +1,87 @@
-## Draw sprites and a backdrop
+## Google Translate
 
-In this project, I will be translating from English, my first language, into other languages, so I will be using the English flag. If your first language is available in both the Translate and Text to Speech extensions, you can choose to use this language instead.
+Scratch 3.0 has a Google Translate tool. You can find the tool in the Extensions menu.
 
 --- task ---
-To start, open the starter project [online](https://scratch.mit.edu/projects/282154211/){:target="_blank"} or download the [offline version](resources/PhrasebookStarter.sb3){:target="_blank"}.
+Click on the **Add extension** button in the bottom left-hand corner of the window.
 
---- /task ---
---- task ---
+![Scratch 3.0 Add extension button](images/extensionButton.png)
 
-Next, create the main backdrop. The first backdrop should contain flags to represent the languages in the phrasebook.
+Then click on **Translate**.
 
-Click on the button in the bottom right-hand corner to open the backdrops library.
-
-![Scratch 3.0 choose a backdrop button](images/backdropButton.png)
-
-Choose a backdrop from the library, or if you want to, you can create your own. I chose Wall 1.
+![Scratch 3.0 Translate extension](images/translateExtension.png)
 
 --- /task ---
 
+Now make your flags say "hello" in their languages.
+
 --- task ---
-Next, add a flag sprite. A sprite looking like the Spanish flag is already included in the starter project. Now draw the England flag, or the flag of the country you live in.
 
-The English flag is white with a red cross in the centre, like this one drawn by me:
+Click on the Spanish flag sprite to select it, and then click on the Code tab.
 
-[[[generic-scratch3-draw-sprite]]]
+![spain sprite selected](images/spainSpriteSelected.png) ![Code tab selected](images/codeTabSelected.png)
 
-![Scratch 3.0 canvas](images/EnglandDrawing.png)
+Create a variable called `language`{:class="block3variables"}. Make the variable available for all sprites.
 
-In the sprite information panel below the Stage, rename your sprite 'england' (or give it your country's name instead).
+[[[generic-scratch3-add-variable]]]
+
+Add code to the Spanish flag sprite so that, when the sprite is clicked:
+1. `language`{:class="block3variables"} is set to 'Spanish'
+1. "Hello" is `translated`{:class="block3extensions"} into the language stored in the `language`{:class="block3variables"} variable so the sprite can `say`{:class="block3looks"} the translated word
+
+![Spain sprite](images/spainSmall.png)
+```blocks3
+when this sprite clicked
+set [language v] to [Spanish]
+say (translate [Hello] to (language):: extension) for (2) secs
+```
+--- /task ---
+--- task ---
+
+Test your code by clicking the Spanish flag on the Stage.
+
+--- no-print ---
+![Test code to make spain sprite say hello in Spanish](images/testHola.gif)
+--- /no-print ---
+
+--- print-only ---
+![Test code to make spain sprite say hello in Spanish](images/testHolaStill.png)
+--- /print-only ---
 
 --- /task ---
 
-Next, we will look at some of the new features of Scratch 3.0!
+--- task ---
+
+Now do the same for the England flag sprite (or whichever flag you've added).
+
+--- hints ---
+--- hint ---
+In a similar way to the code for the Spanish flag sprite, `when the England flag is clicked`{:class="block3events"}, `set the language to English`{:class="block3variables"} and `say`{:class="block3looks"} `Hello in`{:class="block3extensions"} the language stored in `language`{:class="block3variables"}.
+
+--- /hint ---
+--- hint ---
+These are the code blocks you need to add to the England flag sprite:
+```blocks3
+say [ ] for (2) secs
+
+translate [Hello] to (language) :: extension
+
+when this sprite clicked
+
+set [language v] to [English]
+
+```
+
+--- /hint ---
+--- hint ---
+Here's what your code should look like for the England flag sprite:
+![England sprite](images/englandSmall.png)
+```blocks3
+when this sprite clicked
+set [language v] to [English]
+say (translate [Hello] to (language):: extension) for (2) secs
+```
+
+--- /hint ---
+--- /hints ---
+--- /task ---

@@ -1,86 +1,66 @@
-## Text to Speech
+## More phrases
 
-Now you'll use another new tool in Scratch 3.0: Text to Speech!
+You have one phrase translated now — excellent! But that's not enough for a phrasebook, so add some more phrases.
 
 --- task ---
-When you are in a country where people speak a different language to you, it is very useful to know the translation for the sentence "Where are the toilets?". You will add a new sprite to trigger this phrase. 
+It's easiest to duplicate the toilet sprite, because most of the code you need for other phrases is the same. 
 
-If you want to, you can create the new sprite by drawing a toilet.
-
-[[[generic-scratch3-draw-sprite]]]
-
-Or you can use the image in this project's [resources](https://rpf.io/phrasebook-resources):
-![Toilet sprite](images/toiletSmall.png)
+To duplicate the toilet sprite, right-click on it in the list of sprites below the Stage, and then click on **duplicate**.
+![How to duplicate a sprite](images/duplicateSprite.png)
 --- /task ---
 
+"Yes" and "no" are useful words to know in other languages.
+
 --- task ---
-Add code to the toilet sprite to show or hide the sprite when the backdrop switches.
-![Toilet sprite](images/toiletSmall.png)
+To represent "No", use the red cross costume from the costumes library.
+
+Change the costume of the new sprite by clicking on the sprite, then clicking on the Costumes tab (1), and then clicking on the **Choose a Costume** button on the bottom left (2) and choosing Button5-b. Then delete the old costume by clicking its **x** (3).
+
+![How to change a sprite's costume](images/changeCostume.png)
+--- /task ---
+--- task ---
+Change the sprite's name to 'no' in the sprite information panel below the Stage.
+--- /task ---
+--- task ---
+Finally, in the 'no' sprite's `translate`{:class="block3extensions"} code blocks, change "Where are the toilets?" to "No". See the changes below:
+
+![No sprite](images/noSmall.png)
+```blocks3
+when this sprite clicked
+- say (translate [Where are the toilets?] to (language):: extension) for (2) secs
++ say (translate [No] to (language):: extension) for (2) secs
+
+when this sprite clicked
+- speak(translate[Where are the toilets?] to (language)::extension) ::extension
++ speak(translate[No] to (language)::extension) ::extension
+```
+--- /task ---
+--- task --- 
+Add some more phrases to your phrasebook!
+
+Start by adding "Yes".
+
+--- hints ---
+--- hint ---
+First duplicate a sprite with most of the code, then choose a suitable costume (button4 perhaps?), and finally change the phrase in that sprite's `translate`{:class="block3extensions"} code blocks.
+--- /hint ---
+--- hint ---
+The code for your new 'yes' sprite should look like this:
+
+![Yes sprite](images/yesSmall.png)
 ```blocks3
 when backdrop switches to [Wall 1 v]
 hide
 
 when backdrop switches to [Beach Malibu v]
 show
-```
---- /task ---
---- task ---
-Now add some code to the same sprite to translate the question "Where are the toilets?" into the language that is stored in the `language`{:class="block3variables"} variable. 
 
-![Toilet sprite](images/toiletSmall.png)
-```blocks3
 when this sprite clicked
-say (translate [Where are the toilets?] to (language):: extension) for (2) secs
-```
---- /task ---
+say (translate [Yes] to (language):: extension) for (2) secs
 
-Next, try out the new Text to Speech tool!
-
---- task ---
-
-Add the Text to Speech extension in the same way as you added the Google Translate extension.
---- /task ---
---- task ---
-First, set the language on our Spanish and England flag sprites.
-
-![Spain sprite](images/spainSmall.png)
-```blocks3
 when this sprite clicked
-set [language v] to [Spanish]
-+ set language to [Spanish \(European\) v] :: extension
-say (translate [Hello] to (language):: extension) for (2) secs
-switch backdrop to [Beach Malibu v]
+speak(translate[Yes] to (language)::extension) ::extension
 ```
-
-![England sprite](images/englandSmall.png)
-```blocks3
-when this sprite clicked
-set [language v] to [English]
-+ set language to [English v] :: extension
-say (translate [Hello] to (language):: extension) for (2) secs
-switch backdrop to [Beach Malibu v]
-```
---- /task ---
---- task ---
-Then add this code to the toilet sprite:
-
-![Toilet sprite](images/toiletSmall.png)
-```blocks3
-when this sprite clicked
-speak(translate[Where are the toilets?] to (language)::extension) ::extension
-```
---- /task ---
---- task ---
-Now test your code.
-
-You should be able to click the Spanish flag to set the language to Spanish, and then click the toilet to see **and hear** how "Where are the toilets?" is said in Spanish. It's "¿Dónde están los baños?"! The English flag should work for English too.
-
---- no-print ---
-![Test code to translate toilet phrase](images/textToSpeechTest.gif)
---- /no-print ---
-
---- print-only ---
-![Test code to translate toilet phrase](images/textToSpeechTestStill.png)
---- /print-only ---
-
+--- /hint ---
+--- /hints ---
 --- /task ---

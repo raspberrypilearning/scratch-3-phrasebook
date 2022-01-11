@@ -1,24 +1,28 @@
+---
 title: Scratch 3.0 phrasebook
 hero_image: images/banner.png
-description: Translate useful phrases into different languages with an interactive phrasebook
+description: Translate useful phrases into different languages with an interactive
+  phrasebook
 version: 4.0.0
 listed: true
 copyedit: true
 ingredient: false
 technologies: scratch
 software: scratch
-theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red
 duration: 2
-last_tested: "2019-01-29"
+last_tested: '2019-01-29'
 steps:
-  - title: Introduction
-  - title: Draw sprites and a backdrop
-  - title: Google Translate
-  - title: Switch the backdrop
-  - title: Text to Speech
-  - title: More phrases
-  - title: "Challenge: how much does it cost?"
-    challenge: true 
-  - title: More languages
-  - title: "Challenge: use Scratch 3.0 extensions in other projects"
-    challenge: true
+- title: Introduction
+  completion: engaged
+- title: Draw sprites and a backdrop
+- title: Google Translate
+- title: Switch the backdrop
+- title: Text to Speech
+- title: More phrases
+- title: 'Challenge: how much does it cost?'
+  challenge: true
+  completion: internal
+- title: More languages
+- title: 'Challenge: use Scratch 3.0 extensions in other projects'
+  challenge: true

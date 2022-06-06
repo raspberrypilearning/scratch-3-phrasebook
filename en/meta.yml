@@ -14,15 +14,17 @@ duration: 2
 last_tested: '2019-01-29'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Draw sprites and a backdrop
 - title: Google Translate
+  completion:
+  - engaged
 - title: Switch the backdrop
 - title: Text to Speech
 - title: More phrases
 - title: 'Challenge: how much does it cost?'
   challenge: true
-  completion: internal
 - title: More languages
+  completion:
+  - internal
 - title: 'Challenge: use Scratch 3.0 extensions in other projects'
   challenge: true

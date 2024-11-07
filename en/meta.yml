@@ -4,7 +4,7 @@ hero_image: images/banner.png
 description: Translate useful phrases into different languages with an interactive
   phrasebook
 version: 4.0.0
-listed: true
+listed: false
 copyedit: true
 ingredient: false
 technologies: scratch
